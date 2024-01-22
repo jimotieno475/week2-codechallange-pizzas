@@ -6,7 +6,7 @@ db = SQLAlchemy()
 class Restaurant(db.Model, SerializerMixin):
     __tablename__ = 'restaurants'
     
-    SerializerMixin='_pizzas'
+    #SezerMixin='_pizzas'
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String)
@@ -23,7 +23,7 @@ class Pizza(db.Model, SerializerMixin):
 class RestaurantPizza(db.Model, SerializerMixin):
     __tablename__ = 'restaurant_pizzas'
 
-    SerializerMixin='_pizzas'
+    #SerializerMixin='_pizzas'
 
     id = db.Column(db.Integer, primary_key=True)
     price = db.Column(db.Integer)
