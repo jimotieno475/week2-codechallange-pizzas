@@ -6,6 +6,7 @@ import Pizza from './pizza';
 import Restaurants from './restaurants';
 import Home from './home';
 import RestaurantDetails from './Restaurant';
+import Form from './form';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/pizzas" element={<Pizza />} />
         <Route path="/restaurants" element={<Restaurants />} />
+        <Route path="/form" element={<Form />} />
         <Route path="/restaurants/:restaurantId" element={<RestaurantDetails/>} />
       </Routes>
     </Router>
