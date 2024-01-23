@@ -42,5 +42,6 @@ body {
   background-size: cover; /* Ensures the entire image is visible without zooming */
   background-position: center; 
   margin: 0; /* Removes default body margin */
+  color: rgb(241, 240, 245);
 }
 
